@@ -1,0 +1,58 @@
+{
+  "project": {
+    "name": "VPN Location Changer",
+    "version": "1.0.0",
+    "description": "A VPN application to change your IP address to appear from different countries",
+    "author": "Your Name",
+    "license": "MIT"
+  },
+  "components": {
+    "python_scripts": [
+      "vpn_server.py",
+      "vpn_client.py",
+      "socks5_proxy.py",
+      "vpn_manager.py",
+      "crypto_utils.py"
+    ],
+    "csharp_app": {
+      "project_file": "VPNApp/VPNApp.csproj",
+      "solution_file": "VPNApp.sln",
+      "main_window": "VPNApp/MainWindow.xaml"
+    },
+    "configuration_files": [
+      "servers.json",
+      "VPNApp/appsettings.json",
+      "requirements.txt"
+    ]
+  },
+  "requirements": {
+    "python": ">=3.7",
+    "dotnet": ">=8.0",
+    "python_packages": [
+      "cryptography>=41.0.0"
+    ],
+    "nuget_packages": [
+      "Newtonsoft.Json>=13.0.3"
+    ]
+  },
+  "deployment": {
+    "server_requirements": {
+      "os": ["Linux", "Windows", "macOS"],
+      "python": ">=3.7",
+      "ports": [8888],
+      "firewall": "Allow port 8888"
+    },
+    "client_requirements": {
+      "os": ["Windows"],
+      "dotnet_runtime": ">=8.0",
+      "python": ">=3.7",
+      "ports": [1080]
+    }
+  },
+  "usage": {
+    "server_setup": "Run vpn_server.py on a server in the target country",
+    "client_setup": "Run VPNApp.exe and select a country to connect",
+    "proxy_config": "Configure browser/applications to use SOCKS5 proxy at 127.0.0.1:1080"
+  }
+}
+

@@ -1,0 +1,115 @@
+{
+  "servers": {
+    "israel": {
+      "host": "your_israel_server_ip",
+      "port": 8888,
+      "country": "Israel",
+      "description": "Israel VPN server - Change your IP to appear from Israel",
+      "flag": "🇮🇱"
+    },
+    "italy": {
+      "host": "your_italy_server_ip",
+      "port": 8888,
+      "country": "Italy",
+      "description": "Italy VPN server - Change your IP to appear from Italy",
+      "flag": "🇮🇹"
+    },
+    "usa": {
+      "host": "your_usa_server_ip",
+      "port": 8888,
+      "country": "United States",
+      "description": "USA VPN server - Change your IP to appear from USA",
+      "flag": "🇺🇸"
+    },
+    "uk": {
+      "host": "your_uk_server_ip",
+      "port": 8888,
+      "country": "United Kingdom",
+      "description": "UK VPN server - Change your IP to appear from UK",
+      "flag": "🇬🇧"
+    },
+    "germany": {
+      "host": "your_germany_server_ip",
+      "port": 8888,
+      "country": "Germany",
+      "description": "Germany VPN server - Change your IP to appear from Germany",
+      "flag": "🇩🇪"
+    },
+    "france": {
+      "host": "your_france_server_ip",
+      "port": 8888,
+      "country": "France",
+      "description": "France VPN server - Change your IP to appear from France",
+      "flag": "🇫🇷"
+    },
+    "spain": {
+      "host": "your_spain_server_ip",
+      "port": 8888,
+      "country": "Spain",
+      "description": "Spain VPN server - Change your IP to appear from Spain",
+      "flag": "🇪🇸"
+    },
+    "netherlands": {
+      "host": "your_netherlands_server_ip",
+      "port": 8888,
+      "country": "Netherlands",
+      "description": "Netherlands VPN server - Change your IP to appear from Netherlands",
+      "flag": "🇳🇱"
+    },
+    "switzerland": {
+      "host": "your_switzerland_server_ip",
+      "port": 8888,
+      "country": "Switzerland",
+      "description": "Switzerland VPN server - Change your IP to appear from Switzerland",
+      "flag": "🇨🇭"
+    },
+    "japan": {
+      "host": "your_japan_server_ip",
+      "port": 8888,
+      "country": "Japan",
+      "description": "Japan VPN server - Change your IP to appear from Japan",
+      "flag": "🇯🇵"
+    },
+    "singapore": {
+      "host": "your_singapore_server_ip",
+      "port": 8888,
+      "country": "Singapore",
+      "description": "Singapore VPN server - Change your IP to appear from Singapore",
+      "flag": "🇸🇬"
+    },
+    "canada": {
+      "host": "your_canada_server_ip",
+      "port": 8888,
+      "country": "Canada",
+      "description": "Canada VPN server - Change your IP to appear from Canada",
+      "flag": "🇨🇦"
+    },
+    "australia": {
+      "host": "your_australia_server_ip",
+      "port": 8888,
+      "country": "Australia",
+      "description": "Australia VPN server - Change your IP to appear from Australia",
+      "flag": "🇦🇺"
+    },
+    "brazil": {
+      "host": "your_brazil_server_ip",
+      "port": 8888,
+      "country": "Brazil",
+      "description": "Brazil VPN server - Change your IP to appear from Brazil",
+      "flag": "🇧🇷"
+    },
+    "mexico": {
+      "host": "your_mexico_server_ip",
+      "port": 8888,
+      "country": "Mexico",
+      "description": "Mexico VPN server - Change your IP to appear from Mexico",
+      "flag": "🇲🇽"
+    }
+  },
+  "settings": {
+    "default_port": 8888,
+    "proxy_port": 1080,
+    "connection_timeout": 30,
+    "auto_reconnect": false
+  }
+}

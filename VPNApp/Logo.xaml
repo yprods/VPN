@@ -1,0 +1,29 @@
+<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+       Width="64" Height="64">
+    <!-- VPN Shield Logo -->
+    <Ellipse Canvas.Left="0" Canvas.Top="0" 
+             Width="64" Height="64" 
+             Fill="#3498DB" 
+             Stroke="#2980B9" 
+             StrokeThickness="2"/>
+    
+    <!-- Globe/Network Icon -->
+    <Path Canvas.Left="12" Canvas.Top="12" 
+          Data="M 20,20 L 32,16 L 44,20 L 44,32 L 32,36 L 20,32 Z M 20,20 L 32,24 L 44,20 M 20,32 L 32,28 L 44,32 M 32,16 L 32,36" 
+          Stroke="White" 
+          StrokeThickness="2.5"/>
+    
+    <!-- Lock Icon -->
+    <Rectangle Canvas.Left="24" Canvas.Top="38" 
+               Width="16" Height="12" 
+               Fill="White" 
+               Stroke="White" 
+               StrokeThickness="1.5" 
+               RadiusX="2" 
+               RadiusY="2"/>
+    <Path Canvas.Left="28" Canvas.Top="34" 
+          Data="M 28,34 L 28,30 Q 28,26 32,26 Q 36,26 36,30 L 36,34" 
+          Stroke="White" 
+          StrokeThickness="2"/>
+</Canvas>
+

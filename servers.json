@@ -1,0 +1,196 @@
+{
+  "note": "IMPORTANT: This VPN requires servers running the custom Python VPN server (vpn_server.py). Free public VPN services (ProtonVPN, Windscribe, etc.) use different protocols and WILL NOT WORK. You need to deploy your own servers. See FREE_SERVERS_INFO.md for setup instructions.",
+  "security_warning": "⚠️ NEVER use untrusted public servers - they could monitor your traffic, steal data, or inject malware. Always use servers you trust or deploy your own!",
+  "servers": {
+    "israel": {
+      "host": "your_israel_server_ip",
+      "port": 8888,
+      "country": "Israel",
+      "description": "Israel VPN server - Deploy vpn_server.py on a VPS in Israel",
+      "flag": "🇮🇱",
+      "setup_guide": "1. Get VPS in Israel (DigitalOcean, AWS, etc.) 2. Install Python 3.7+ 3. Run: python3 vpn_server.py --port 8888 --password your_password",
+      "free_option": "Use Oracle Cloud Always-Free tier (Israel region available)"
+    },
+    "italy": {
+      "host": "your_italy_server_ip",
+      "port": 8888,
+      "country": "Italy",
+      "description": "Italy VPN server - Deploy vpn_server.py on a VPS in Italy",
+      "flag": "🇮🇹",
+      "setup_guide": "1. Get VPS in Italy 2. Install Python 3.7+ 3. Run: python3 vpn_server.py --port 8888 --password your_password",
+      "free_option": "Use AWS Free Tier (12 months) or Oracle Cloud Always-Free"
+    },
+    "usa": {
+      "host": "your_usa_server_ip",
+      "port": 8888,
+      "country": "United States",
+      "description": "USA VPN server - Deploy vpn_server.py on a VPS in USA",
+      "flag": "🇺🇸",
+      "setup_guide": "1. Get VPS in USA (AWS Free Tier available) 2. Install Python 3.7+ 3. Run: python3 vpn_server.py --port 8888 --password your_password",
+      "free_option": "AWS Free Tier: 12 months free t2.micro instance - https://aws.amazon.com/free"
+    },
+    "uk": {
+      "host": "your_uk_server_ip",
+      "port": 8888,
+      "country": "United Kingdom",
+      "description": "UK VPN server - Deploy vpn_server.py on a VPS in UK",
+      "flag": "🇬🇧",
+      "setup_guide": "1. Get VPS in UK 2. Install Python 3.7+ 3. Run: python3 vpn_server.py --port 8888 --password your_password",
+      "free_option": "Oracle Cloud Always-Free tier (UK region available)"
+    },
+    "germany": {
+      "host": "your_germany_server_ip",
+      "port": 8888,
+      "country": "Germany",
+      "description": "Germany VPN server - Deploy vpn_server.py on a VPS in Germany",
+      "flag": "🇩🇪",
+      "setup_guide": "1. Get VPS in Germany (Hetzner from €4/month) 2. Install Python 3.7+ 3. Run: python3 vpn_server.py --port 8888 --password your_password",
+      "free_option": "Oracle Cloud Always-Free tier (Germany region available)"
+    },
+    "france": {
+      "host": "your_france_server_ip",
+      "port": 8888,
+      "country": "France",
+      "description": "France VPN server - Deploy vpn_server.py on a VPS in France",
+      "flag": "🇫🇷",
+      "setup_guide": "1. Get VPS in France 2. Install Python 3.7+ 3. Run: python3 vpn_server.py --port 8888 --password your_password",
+      "free_option": "Oracle Cloud Always-Free tier (France region available)"
+    },
+    "spain": {
+      "host": "your_spain_server_ip",
+      "port": 8888,
+      "country": "Spain",
+      "description": "Spain VPN server - Deploy vpn_server.py on a VPS in Spain",
+      "flag": "🇪🇸",
+      "setup_guide": "1. Get VPS in Spain 2. Install Python 3.7+ 3. Run: python3 vpn_server.py --port 8888 --password your_password",
+      "free_option": "Oracle Cloud Always-Free tier"
+    },
+    "netherlands": {
+      "host": "your_netherlands_server_ip",
+      "port": 8888,
+      "country": "Netherlands",
+      "description": "Netherlands VPN server - Deploy vpn_server.py on a VPS in Netherlands",
+      "flag": "🇳🇱",
+      "setup_guide": "1. Get VPS in Netherlands 2. Install Python 3.7+ 3. Run: python3 vpn_server.py --port 8888 --password your_password",
+      "free_option": "Oracle Cloud Always-Free tier (Netherlands region available)"
+    },
+    "switzerland": {
+      "host": "your_switzerland_server_ip",
+      "port": 8888,
+      "country": "Switzerland",
+      "description": "Switzerland VPN server - Deploy vpn_server.py on a VPS in Switzerland",
+      "flag": "🇨🇭",
+      "setup_guide": "1. Get VPS in Switzerland 2. Install Python 3.7+ 3. Run: python3 vpn_server.py --port 8888 --password your_password",
+      "free_option": "Oracle Cloud Always-Free tier"
+    },
+    "japan": {
+      "host": "your_japan_server_ip",
+      "port": 8888,
+      "country": "Japan",
+      "description": "Japan VPN server - Deploy vpn_server.py on a VPS in Japan",
+      "flag": "🇯🇵",
+      "setup_guide": "1. Get VPS in Japan 2. Install Python 3.7+ 3. Run: python3 vpn_server.py --port 8888 --password your_password",
+      "free_option": "Oracle Cloud Always-Free tier (Japan region available)"
+    },
+    "singapore": {
+      "host": "your_singapore_server_ip",
+      "port": 8888,
+      "country": "Singapore",
+      "description": "Singapore VPN server - Deploy vpn_server.py on a VPS in Singapore",
+      "flag": "🇸🇬",
+      "setup_guide": "1. Get VPS in Singapore 2. Install Python 3.7+ 3. Run: python3 vpn_server.py --port 8888 --password your_password",
+      "free_option": "Oracle Cloud Always-Free tier (Singapore region available)"
+    },
+    "canada": {
+      "host": "your_canada_server_ip",
+      "port": 8888,
+      "country": "Canada",
+      "description": "Canada VPN server - Deploy vpn_server.py on a VPS in Canada",
+      "flag": "🇨🇦",
+      "setup_guide": "1. Get VPS in Canada 2. Install Python 3.7+ 3. Run: python3 vpn_server.py --port 8888 --password your_password",
+      "free_option": "Oracle Cloud Always-Free tier (Canada region available)"
+    },
+    "australia": {
+      "host": "your_australia_server_ip",
+      "port": 8888,
+      "country": "Australia",
+      "description": "Australia VPN server - Deploy vpn_server.py on a VPS in Australia",
+      "flag": "🇦🇺",
+      "setup_guide": "1. Get VPS in Australia 2. Install Python 3.7+ 3. Run: python3 vpn_server.py --port 8888 --password your_password",
+      "free_option": "Oracle Cloud Always-Free tier (Australia region available)"
+    },
+    "brazil": {
+      "host": "your_brazil_server_ip",
+      "port": 8888,
+      "country": "Brazil",
+      "description": "Brazil VPN server - Deploy vpn_server.py on a VPS in Brazil",
+      "flag": "🇧🇷",
+      "setup_guide": "1. Get VPS in Brazil 2. Install Python 3.7+ 3. Run: python3 vpn_server.py --port 8888 --password your_password",
+      "free_option": "Oracle Cloud Always-Free tier (Brazil region available)"
+    },
+    "mexico": {
+      "host": "your_mexico_server_ip",
+      "port": 8888,
+      "country": "Mexico",
+      "description": "Mexico VPN server - Deploy vpn_server.py on a VPS in Mexico",
+      "flag": "🇲🇽",
+      "setup_guide": "1. Get VPS in Mexico 2. Install Python 3.7+ 3. Run: python3 vpn_server.py --port 8888 --password your_password",
+      "free_option": "Oracle Cloud Always-Free tier"
+    }
+  },
+  "free_trial_options": {
+    "oracle_cloud": {
+      "name": "Oracle Cloud Always-Free Tier",
+      "description": "ALWAYS FREE - No credit card required for basic tier. 2 AMD-based VMs, 4 ARM-based VMs, 10TB data transfer",
+      "link": "https://www.oracle.com/cloud/free",
+      "countries": ["USA", "UK", "Germany", "Netherlands", "Japan", "Singapore", "Canada", "Australia", "Brazil", "Israel", "France", "Multiple regions"],
+      "setup_time": "15-30 minutes",
+      "cost": "FREE FOREVER (with limitations)"
+    },
+    "aws": {
+      "name": "AWS Free Tier",
+      "description": "12 months free - t2.micro instance (750 hours/month)",
+      "link": "https://aws.amazon.com/free",
+      "countries": ["USA", "Multiple regions available"],
+      "setup_time": "20-30 minutes",
+      "cost": "FREE for 12 months"
+    },
+    "google_cloud": {
+      "name": "Google Cloud Free Tier",
+      "description": "$300 free credit (valid for 90 days) - Enough for several months of small VMs",
+      "link": "https://cloud.google.com/free",
+      "countries": ["Multiple regions available"],
+      "setup_time": "20-30 minutes",
+      "cost": "$300 credit (90 days)"
+    },
+    "azure": {
+      "name": "Microsoft Azure Free Account",
+      "description": "$200 free credit for 30 days + Always-free services",
+      "link": "https://azure.microsoft.com/free",
+      "countries": ["Multiple regions available"],
+      "setup_time": "20-30 minutes",
+      "cost": "$200 credit (30 days) + Always-free tier"
+    }
+  },
+  "recommended_free_setup": {
+    "best_option": "Oracle Cloud Always-Free Tier",
+    "reason": "Truly free forever (no credit card required for basic tier), multiple regions available",
+    "steps": [
+      "1. Sign up at https://www.oracle.com/cloud/free",
+      "2. Create a VM instance in your target country",
+      "3. SSH into the server",
+      "4. Install Python: sudo apt update && sudo apt install python3 python3-pip -y",
+      "5. Install dependencies: pip3 install cryptography",
+      "6. Upload vpn_server.py to the server",
+      "7. Run: python3 vpn_server.py --host 0.0.0.0 --port 8888 --password your_secure_password",
+      "8. Configure firewall: sudo ufw allow 8888/tcp",
+      "9. Add server IP to servers.json in the app"
+    ]
+  },
+  "settings": {
+    "default_port": 8888,
+    "proxy_port": 1080,
+    "connection_timeout": 30,
+    "auto_reconnect": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "paypal": {
+    "enabled": true,
+    "url": "https://www.paypal.com/donate/?hosted_button_id=QPPDT97GAMX58",
+    "alternative_url": "https://www.paypal.com/donate/?hosted_button_id=QPPDT97GAMX58",
+    "button_text": "Donate with PayPal"
+  },
+  "instructions": {
+    "note": "To set up PayPal donations:",
+    "steps": [
+      "1. Go to https://www.paypal.com/buttons",
+      "2. Create a 'Donate' button",
+      "3. Copy the hosted_button_id from the generated code",
+      "4. Replace 'YOUR_BUTTON_ID' in the url field above",
+      "Or use PayPal.me: Replace 'yourusername' with your PayPal.me username"
+    ]
+  }
+}
+
